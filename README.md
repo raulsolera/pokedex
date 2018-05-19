@@ -18,9 +18,9 @@ Steps:
   * file --> Txt file for search terms
   * apikey --> Bing search API key (you'll need your own key)
   
-     Example: `python image_search_downloader.py -d images -m 250 -f search_terms.txt -k your_api_key_here`
+   Example: `python image_search_downloader.py -d images -m 250 -f search_terms.txt -k your_api_key_here`
   
-     Refer to [this article](https://www.pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/) for further information and details
+   Refer to [this article](https://www.pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/) for further information and details
   
 ### 2. Training model:
 
@@ -35,8 +35,7 @@ Steps:
   * model --> Path to trained model model
   * labelbin --> Path to label binarizer
   * image --> Path to input image
-  
-     Example: `python classifier.py -m pokedex.model -l lb.pickle -i examples/pikachu_01.png`
+  Example: `python classifier.py -m pokedex.model -l lb.pickle -i examples/pikachu_01.png`
 
      `pokedex.model` file can be dowloaded [here](https://www.amazon.es/clouddrive/share/xRIHKaA1k1k8KRiQmZWliMUwXxq8IifpzsoWOv49EIt?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0&mgh=1).
   
