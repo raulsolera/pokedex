@@ -35,9 +35,10 @@ Steps:
   * model --> Path to trained model model
   * labelbin --> Path to label binarizer
   * image --> Path to input image
-  Example: `python classifier.py -m pokedex.model -l lb.pickle -i examples/pikachu_01.png`
+  
+Example: `python classifier.py -m pokedex.model -l lb.pickle -i examples/pikachu_01.png`
 
-     `pokedex.model` file can be dowloaded [here](https://www.amazon.es/clouddrive/share/xRIHKaA1k1k8KRiQmZWliMUwXxq8IifpzsoWOv49EIt?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0&mgh=1).
+`pokedex.model` file can be dowloaded [here](https://www.amazon.es/clouddrive/share/xRIHKaA1k1k8KRiQmZWliMUwXxq8IifpzsoWOv49EIt?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0&mgh=1).
   
   The classification is also tested in `Test_classifier.ipynb` where different images are classified with diverse results:
   
