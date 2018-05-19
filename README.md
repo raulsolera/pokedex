@@ -15,11 +15,11 @@ Steps:
   * file --> Txt file for search terms
   * apikey --> Bing search API key (you'll need your own key)
   
-  example: `python image_search_downloader.py -d images -m 250 -f search_terms.txt -k your_api_key_here`
+     Example: `python image_search_downloader.py -d images -m 250 -f search_terms.txt -k your_api_key_here`
   
-  Refer to [this article](https://www.pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/) for further information and details
+     Refer to [this article](https://www.pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/) for further information and details
   
-2. Train a Convolutional neural network (CNN) with the downloaded images. See `Jupiter Notebook`for details and results on the training.
+2. Train a Convolutional neural network (CNN) with the downloaded images. See `Build_Pokedex.ipynb` Jupiter Notebook for details and results on the training.
 
    After the training the model and the label binarizer are saved to be used in posterior classification.
 
@@ -29,7 +29,7 @@ Steps:
   * labelbin --> Path to label binarizer
   * image --> Path to input image
   
-     example: `python classifier.py -m pokedex.model -l lb.pickle -i examples/pikachu_01.png`
+     Example: `python classifier.py -m pokedex.model -l lb.pickle -i examples/pikachu_01.png`
 
      `pokedex.model` file can be dowloaded [here](https://www.amazon.es/clouddrive/share/xRIHKaA1k1k8KRiQmZWliMUwXxq8IifpzsoWOv49EIt?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0&mgh=1).
   
