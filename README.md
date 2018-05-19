@@ -6,7 +6,10 @@ https://www.pyimagesearch.com/2018/04/16/keras-and-convolutional-neural-networks
 
 Create a pokemon classifier from scratch using keras on top of tensorflow.
 Steps:
-1. Download a good bunch of pokemon images using Bing search API. It requires an account of Microsoft Cognitive Services.
+
+### 1. Get training images:
+
+   Download a good bunch of pokemon images using Bing search API. It requires an account of Microsoft Cognitive Services.
 
    Run `image_search_downloader.py` python script to download images with the following parameters:
 
@@ -19,11 +22,15 @@ Steps:
   
      Refer to [this article](https://www.pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/) for further information and details
   
-2. Train a Convolutional neural network (CNN) with the downloaded images. See `Build_Pokedex.ipynb` Jupiter Notebook for details and results on the training.
+### 2. Training model:
+
+   Train a Convolutional neural network (CNN) with the downloaded images. See `Build_Pokedex.ipynb` Jupiter Notebook for details and results on the training.
 
    After the training the model and the label binarizer are saved to be used in posterior classification.
 
-3. Test the model with sample images (mine are in "examples" folder). The images can be classified using `classifier.py` python script with the following parameters:
+### 3. Testing the model:
+
+   Test the model with sample images (mine are in "examples" folder). The images can be classified using `classifier.py` python script with the following parameters:
 
   * model --> Path to trained model model
   * labelbin --> Path to label binarizer
